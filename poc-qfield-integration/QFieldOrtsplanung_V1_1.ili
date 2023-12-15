@@ -1,0 +1,15 @@
+INTERLIS 2.3;
+
+/* Ortsplanung as national model importing the infrastrukture used for using geometry types and connectiong to strasse */
+MODEL QFieldOrtsplanung_V1_1 (en) AT "https://modelbaker.ch" VERSION "2023-03-29" =
+  IMPORTS Ortsplanung_V1_1;
+
+  TOPIC Konstruktionen EXTENDS Ortsplanung_V1_1.Konstruktionen=
+
+    CLASS Gebaeude (EXTENDED) =
+      Besitzerin_OID : MANDATORY TEXT*99;
+    END Gebaeude;
+
+  END Konstruktionen;
+
+END QFieldOrtsplanung_V1_1.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+<HEADERSECTION SENDER="ili2pg-5.0.0-20f2bb62307ba6329a125fc6f10965ad9a4e6300" VERSION="2.3"><MODELS><MODEL NAME="Ortsplanung_V1_1" VERSION="2023-03-29" URI="https://modelbaker.ch"></MODEL></MODELS></HEADERSECTION>
+<DATASECTION>
+<Ortsplanung_V1_1.Konstruktionen BID="41d6b6aa-3385-4313-875f-1c1204e71963">
+<Ortsplanung_V1_1.Konstruktionen.BesitzerIn TID="c0bf7c98-9761-4dd8-8881-ddb7aaef1f8a"><Vorname>David</Vorname><Nachname>Signer</Nachname></Ortsplanung_V1_1.Konstruktionen.BesitzerIn>
+<Ortsplanung_V1_1.Konstruktionen.BesitzerIn TID="a021da34-efe4-4fbd-87ce-6116c62c59df"><Vorname>Clemens</Vorname><Nachname>Rudert</Nachname></Ortsplanung_V1_1.Konstruktionen.BesitzerIn>
+<Ortsplanung_V1_1.Konstruktionen.Gebaeude TID="b473e71c-e43c-4016-bd26-81f10f8dc5ee"><Name>Test Uno</Name><BesitzerIn REF="c0bf7c98-9761-4dd8-8881-ddb7aaef1f8a"></BesitzerIn></Ortsplanung_V1_1.Konstruktionen.Gebaeude>
+<Ortsplanung_V1_1.Konstruktionen.Gebaeude TID="878cdbf8-e1dc-449b-92c0-f3b4e75f4d83"><Name>Test Due</Name><BesitzerIn REF="c0bf7c98-9761-4dd8-8881-ddb7aaef1f8a"></BesitzerIn></Ortsplanung_V1_1.Konstruktionen.Gebaeude>
+<Ortsplanung_V1_1.Konstruktionen.Gebaeude TID="83e48d6b-b8ec-4290-99f2-92de879ae3ce"><Name>Test Tre</Name><BesitzerIn REF="a021da34-efe4-4fbd-87ce-6116c62c59df"></BesitzerIn></Ortsplanung_V1_1.Konstruktionen.Gebaeude>
+<Ortsplanung_V1_1.Konstruktionen.Gebaeude TID="e301fdf7-cf94-4588-b714-d74356ebd7cc"><Name>Test Quatro</Name><BesitzerIn REF="a021da34-efe4-4fbd-87ce-6116c62c59df"></BesitzerIn></Ortsplanung_V1_1.Konstruktionen.Gebaeude>
+<Ortsplanung_V1_1.Konstruktionen.Gebaeude TID="9c8c4828-a536-4668-8752-4adcdd37df7a"><Name>Test Cinque</Name><BesitzerIn REF="c0bf7c98-9761-4dd8-8881-ddb7aaef1f8a"></BesitzerIn></Ortsplanung_V1_1.Konstruktionen.Gebaeude>
+</Ortsplanung_V1_1.Konstruktionen>
+<Ortsplanung_V1_1.Konstruktionen BID="ce9436cc-060f-455b-8017-fa31477d5486">
+</Ortsplanung_V1_1.Konstruktionen>
+</DATASECTION>
+</TRANSFER>
